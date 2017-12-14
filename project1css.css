@@ -1,0 +1,707 @@
+*{
+	
+	margin: 0PX;
+	padding: 0PX;
+}
+
+body{
+	background-color: gray;
+	
+}
+header {
+    height: 10px;
+    /* padding: 20px; */
+    background-color: #651fff;
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+.headerul{
+	float: right;
+	list-style: none;
+	font-family: arial;
+	font-size: 12px;
+}
+
+nav{
+	height: auto;
+	border-bottom: 1px solid white;
+	background-color: #651fff;
+}
+.navdiv{
+	display: inline-block;
+}
+.navdiv2{
+	float: right;
+}
+nav ul li {
+    display: inline-block;
+    font-size: 12px;
+    font-family: arial;
+    margin-right: 20px;
+    vertical-align: middle;
+    color: white;
+}
+.headerul li{
+display: inline-block;
+padding: 10px 20px 10px 20px;
+color: white;
+}
+.hborder{
+	border-left: 1px solid white;
+}
+/*
+nav ul li:first-child{
+	font-size: 15px;
+	float: left;
+	margin-right: 50px;
+}
+nav{
+	padding: 30px;
+}
+nav button{
+	float: left;
+	margin-left: 20px;
+}*/
+.navlogo{
+	float: left;
+	padding: 10px;
+}
+.navfloat{
+	float: right;
+    padding: 15px;
+}
+.navb{
+	border: none;
+	padding:10px;
+	color: white;
+	size: 30px;
+	background-color: orange;
+	border-radius: 5px;
+}
+
+#div2,#div3,#div4,#div5,#div6,#div7{
+	
+	background-color: #651fff;
+	padding: 50px ;
+}
+#div2,#div4,#div6{
+	background-color: white;
+
+}
+.divwidth{
+	padding: 30px 120px;
+	margin: 0px auto;
+}
+/*#div5{
+	
+	height: 256px;
+	
+}*/
+.phone1
+{
+	display: inline-block;
+	
+}
+.phone2{
+	display: inline-block;
+	/*position: absolute ;*/
+	margin-left: 40px ;
+}
+#h2sty{
+	color: white;
+    font-size: 40px ;
+    font-weight: normal;
+    font-family: arial;
+    margin: 30px;
+    text-align: center;
+}
+.algcen{
+	
+	text-align: center; 
+}
+.algcen1{
+	font-weight: normal;
+}
+.algcen2{
+	font-weight: normal;padding: 15px;
+}
+#div1{
+	background-image: url("assets smartjob/banner.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	height: auto;
+}
+.cendiv1 {
+    height: auto;
+    text-align: center;
+    margin: 0px auto;
+    padding: 100px;
+}
+.div1h1sty{
+	text-align: center;
+	color: white;
+	font-family: arial;
+	font-size: 40px;
+	padding-top: 0px;
+}
+.div1psty{
+	text-align: center;
+	color: white;
+	font-size: 15px ;
+	padding-top: 20px;
+	font-family: arial;
+}
+.marzero{
+	margin-right: 0px;
+}
+.div1bsty{
+	margin-top: 30px;
+	 padding: 18px 80px ;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    background-color: orange;
+}
+/*#div2{
+	height: 376px;
+}*/
+#h3sty{
+	    text-align: center;
+    font-family: arial;
+    margin: 20px ;
+    font-weight: normal;
+}
+.div2art1 {
+        width: 48%;
+    /* border: 1px solid blue; */
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    font-family: arial;
+}
+.div2art2 {
+        width: 40%;
+    /* border: 1px solid blue; */
+    display: inline-block;
+    margin: 2px;
+    text-align: center;
+    font-family: arial;
+}
+.div2art2 img{
+	width: 75%;
+}
+.div2art1 img{
+	width: 20%;
+	padding: 2px;
+}
+.btnletter{
+	font-size: 10px;
+}
+#bdr{
+	border-left: 1px solid lightgray;
+}
+/*#div3
+{
+	height: 150px ;
+}*/
+.div3h1,.div3h3{
+	text-align: center;
+	color: white;
+	font-weight: normal;
+	font-family: arial;
+	margin: 10px ;
+}
+.div3h1{
+	    font-size: 35px;
+    
+}
+.div3h3{
+
+    padding: 10px;
+}
+.div3btn{
+	background-color: orange;
+	padding: 15px 30px;
+	border: none;
+	margin: 15px 0px 0px 375px ;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+aside article ul li{
+	margin: 5px 0px 0px 10px;
+	color: white;
+	list-style: none;
+	font-size: 13px;
+	font-family: arial;
+}
+aside article ul li:first-child{
+	font-size: 20px;
+	font-family: arial;
+	margin-bottom: 10px;
+}
+.div7article{
+	
+	width: 240px;
+	display: inline-grid;
+	
+}
+.asart{
+	display: inline-block;
+    width: 35%;
+    text-align: center;
+        margin: 60px;
+}
+.asart p{
+	margin: 10px;
+}
+.lsty{
+	list-style: none;
+	display: inline-flex ;
+}
+.imgwidth{
+	width: 20px;
+	 vertical-align: middle;
+	     margin: 0px 10px 0px 5px;
+}
+.lbtn{
+	    padding: 2px 20px;
+    border: 1px solid #651fff;
+    border-radius: 5px;
+    margin: 2px 10px;
+    background-color: white;
+}
+.mar{
+	margin: 10px;
+}
+.marh2{
+	display: inline-block;font-family: arial;font-weight: normal;
+}
+.marp{
+	font-size: small;color: grey;
+}
+#sbtn{
+	    background-color: red;
+    border: 0px solid red;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    padding: 2px;
+    margin-left: 2px;
+}
+.dsty{
+	    /* border: 1px solid grey; */
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+.dstynone{
+	border-bottom: 0px;
+}
+.disp{
+	display: inline-block;
+}
+#hdiv{
+	border:1px solid gray;
+	border-radius: 10px;
+}
+#bbtn{
+	    background: orange;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 30px 0px 0px 375px ;
+}
+aside article ul button{
+	background-color: white;
+	padding: 15px;
+	display: block;
+	margin: 15px 0px 0px 5px;
+	border: 0px;
+	border-radius: 10px;
+	width: 80%;
+}
+#bbutton1{
+	background-image: url("assets smartjob/headphone.png");
+	background-repeat: no-repeat;
+	background-position: center left;
+
+}
+
+#bbutton2{
+	background-image: url("assets smartjob/edit.png");
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-position-x:5px;
+
+}
+.div7article ul{
+	width: 280px;
+	line-height: 18px;
+}
+
+footer{
+	height: 50px;
+	background-color: #651fff;
+	background-repeat: no-repeat;
+	background-position: center;
+	    border-top: 1px solid white;
+    text-align: center;
+}
+.fdiv{
+	padding: 10px;
+}
+.div5d2{
+	margin-top: 60px;
+}
+.linediv{
+	display: inline-block;
+	border-left: 1px solid lightgray;
+	height: 250px ;
+	margin: 30px ;
+}
+.linediv1{
+	display: inline-block;
+	border-left: 1px solid lightgray;
+	height: 120px ;
+}
+.fsize{
+	font-size: 16px;
+    font-weight: bold;
+}
+.div6logo img{
+	margin: 18px;
+}
+
+
+
+ /* --------------------------------------------------------media qurie 375(iphone6)-----------------------------------------------------------------*/
+@media(max-width:375px){
+	#div5,#div1{
+		height: auto;
+	}
+	#bbtn{
+		background: orange;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 30px;
+	}
+	.phone1,.phone2{
+		display: inherit;
+		text-align: center;
+	}
+	.phone2{
+		margin: 0px;
+		    position: relative;
+	}
+	.div5d2 {
+    margin-top: 30px;
+    padding: 0px;
+	}
+	.div5d2 img{
+		width: 100%;
+	}
+	#h2sty {
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: arial;
+
+	}
+	.lsty{
+		display: inline-block;
+	}
+	.marh2 {
+    display: inline-block;
+    font-family: arial;
+    font-weight: normal;
+    margin: 0px;
+	}
+	.marp {
+    font-size: small;
+    color: grey;
+    margin: 0px;
+	}
+	.mar{
+		margin: 0px;
+	}
+	#div2{
+		height:auto;
+	}
+	.div2art1 img{
+	width: 40%;
+	padding: 2px;
+	}
+	.div2art2 img{
+		width: 100%;
+	}
+	.div2art1{
+		width: 100%;
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+    font-family: arial;
+	}
+	.div2art2{
+		width: 100%;
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+    font-family: arial;
+	}
+	.divwidth{
+		padding: 0px;
+	}
+	.linediv{
+		display: none;
+	}
+	.linediv1{
+		display: none;
+	}
+	.div3btn {
+    background-color: orange;
+    padding: 15px 28px;
+    border: none;
+    margin: 0px 40px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+	}
+	.div3h1{
+		font-size: 25px;
+	}
+	.asart{
+		width: 100%;
+		text-align: center;
+    	margin: 0px;
+	}
+	.asart p{
+		margin: 0px;
+		font-size: 20px;
+	}
+	.div1h1sty {
+    text-align: center;
+    color: white;
+    font-family: arial;
+    padding: 10px;
+    font-size:15px;
+	}
+	.div1psty {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 2px 40px;
+    font-family: arial;
+	}
+	.div1bsty {
+    padding: 5px;
+    color: white;
+    font-size: 10px;
+    border: none;
+    margin: 2px 120px;
+    border-radius: 2px;
+    background-color: orange;
+	}
+    .div6logo img{
+    	width: 50%;
+    }
+    aside article ul li {
+    margin: 5px 0px 0px 10px;
+    color: white;
+    list-style: none;
+    font-size: 18px;
+	}
+	aside article ul li:first-child {
+    font-size:25px;
+    font-family: arial;
+    margin-bottom: 10px;
+    margin-top: 15px;
+	}
+	.navlogo {
+    width: 30%;
+    float: left;
+	}
+	.cendiv1 {
+    padding: 10px;
+    height: auto;
+	}
+	nav {
+    border-bottom: 1px solid white;
+    background-color: #651fff;
+    height: 50px;
+	}.navlogo {
+    width: 20%;
+    float: left;
+	}.navfloat {
+    float: right;
+    padding: 0;
+	}nav ul li {
+    display: inline-block;
+    font-size: 6px;
+    font-family: arial;
+    margin-right: 5px;
+    vertical-align: middle;
+    color: white;
+	}.navb {
+    border: none;
+    padding: 5px;
+    color: white;
+    font-size: 8px;
+    background-color: orange;
+    border-radius: 5px;
+	}
+
+}
+
+
+/*-------------------------------------------------------Media Qurie 768(ipad)-------------------------------------------------------------*/
+
+
+
+
+@media (min-width:376px)  and (max-width:768px){
+	nav {
+    height: auto;
+    border-bottom: 1px solid white;
+    background-color: #651fff;
+	}
+	.navdiv {
+    display: inline-block;
+}.navlogo {
+    float: left;
+    width: 50%;
+    padding: 0px;
+}.navdiv2 {
+    float: right;
+    padding-top: 3px;
+}.navfloat {
+    float: right;
+    padding: 0px;
+}nav ul li {
+    display: inline-block;
+    font-size: 10px;
+    font-family: arial;
+    margin-right: 10px;
+    vertical-align: middle;
+    color: white;
+}.navb {
+    border: none;
+    padding: 2px;
+    color: white;
+    font-size: 10px;
+    background-color: orange;
+    border-radius: 5px;
+}#div1 {
+    background-image: url(assets smartjob/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    height: auto;
+}.cendiv1 {
+    height: auto;
+    text-align: center;
+    margin: 0px auto;
+    padding: 70px 222px;
+}.div1h1sty {
+    text-align: center;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    padding-top: 0px;
+}.div1bsty {
+        margin-top: 20px;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    background-color: orange;
+}.divwidth{
+	padding: 0px;
+	/*text-align: center;*/
+}
+.div2art2,.divart1 {
+    width: 100%;
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+    font-family: arial;
+}
+.linediv{
+	display: none;
+}
+.div3btn {
+    background-color: orange;
+    padding: 15px 30px;
+    border: none;
+    margin: 15px 0px 0px 230px;
+    border-radius: 5px;
+    color: white;
+    }
+    .div3h3 {
+    padding: 0px;
+    margin-top: 15px;
+}
+.asart {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    margin: 0px;
+}
+.disp{
+	display: inline-block;
+}
+.marh2,.marp{
+	    margin: 5px;
+}
+#bbtn{
+	    margin: 30px 0px 0px 222px;
+}
+.divalgcen{
+	text-align: center;
+}
+aside article ul li:first-child {
+    font-size: 25px;
+    font-family: arial;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+aside article ul li {
+font-size: 18px;
+}
+.div7article {
+	width: 49%;
+}
+.divwidth2
+{
+	width: 50%;
+}
+.disp1{
+	width: 17%;
+}
+.disp2{
+	width: 83%;
+	float: right;
+}
+.div2art1,.div2art2{
+	width: 100%;
+	margin: 0px;
+}
+.div2art1 img{
+	width: 30%;
+}
+.lsty{
+    display: -webkit-box;
+
+}
+.marsty
+{
+	margin: 0px;
+
+}
+}
